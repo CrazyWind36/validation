@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2340*1080分辨率-->
+<!--上传人脸信息-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+    <!--照相机按钮  || 身份证照片-->
+    <ImageView
+        android:id="@+id/iv_third"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <!--成功或者失败-->
+    <LinearLayout
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="64dp">
+
+        <ImageView
+            android:scaleType="fitXY"
+            android:layout_gravity="center"
+            android:id="@+id/iv_third_state"
+            android:layout_width="32dp"
+            android:layout_height="32dp" />
+
+        <TextView
+            android:id="@+id/tv_third_state"
+            android:gravity="center|left"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:paddingLeft="8dp"
+            android:layout_width="120dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>

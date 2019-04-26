@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">智慧校园身份认证系统</string>
+    <string name="first_description">智慧身份认证,保障财富安全!</string>
+    <string name="start_validation">开始认证</string>
+    <string name="user_name">姓名</string>
+    <string name="identity_card">身份证</string>
+    <string name="next_step">下一步</string>
+    <string name="app_title">智慧身份认证</string>
+    <string name="first_title">基本信息</string>
+    <string name="second_title">拍证件照</string>
+    <string name="success">成功!</string>
+    <string name="fail">失败!</string>
+    <string name="take_photo_again">重新拍摄</string>
+    <string name="third_title">人脸检测</string>
+    <string name="start_face_validation">开始人脸检测</string>
+    <string name="login_title">智慧校园身份认证系统</string>
+    <string name="login">登录</string>
+    <string name="login_user_name">学号/职工号</string>
+    <string name="login_user_phone">手机号码</string>
+    <string name="back">返回</string>
+    <string name="ready_success">您已认证成功</string>
+    <string name="ready_fail">您尚未认证</string>
+    <string name="get_verification_code">获取验证码</string>
+    <string name="please_input_correct_no">请输入正确的身份证号</string>
+</resources>

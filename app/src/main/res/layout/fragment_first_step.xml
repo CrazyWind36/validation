@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 2340*1080分辨率-->
+<!--智慧身份认证-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal">
+
+
+
+ <LinearLayout style="@style/ll_fragment_first_step">
+
+     <TextView
+         android:text="@string/user_name"
+         style="@style/tv_fragment_first_step" />
+
+     <EditText
+         android:singleLine="true"
+         android:inputType="textPersonName"
+         android:id="@+id/et_user_name"
+         style="@style/et_fragment_first_step" />
+
+ </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+
+    <LinearLayout style="@style/ll_fragment_first_step">
+
+        <TextView
+            android:text="@string/identity_card"
+            style="@style/tv_fragment_first_step" />
+
+        <EditText
+            android:singleLine="true"
+            android:inputType="number"
+            android:id="@+id/et_identity_card"
+            style="@style/et_fragment_first_step" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

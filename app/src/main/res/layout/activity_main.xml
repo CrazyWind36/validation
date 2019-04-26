@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?><!-- 2340*1080分辨率--><!--主页面-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="com.conch.validation.activity.MainActivity">
+
+    <include layout="@layout/view_title" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/first_description"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        android:id="@+id/activity_main_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </FrameLayout>
+
+    <Button
+        android:layout_marginTop="16dp"
+        android:id="@+id/bt_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/start_validation"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="16sp" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/bt_second"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+</LinearLayout>
